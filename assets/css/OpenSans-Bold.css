@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url(../../assets/fonts/OpenSansBold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/OpenSansBold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/OpenSansBold.otf) format('otf'),
+	url(../../assets/fonts/OpenSansBold.svg) format('svg'),
+	url(../../assets/fonts/OpenSansBold.ttf) format('truetype'),
+	url(../../assets/fonts/OpenSansBold.woff) format('woff'),
+	url(../../assets/fonts/OpenSansBold.woff2) format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}

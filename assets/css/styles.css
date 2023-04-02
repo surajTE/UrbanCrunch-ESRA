@@ -1,0 +1,818 @@
+#top_menu h5 {
+  font-family: 'OpenSans-Bold';
+  float: left;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+#top_menu {
+  font-family: 'Proxima Nova Alt Rg';
+  color: #449CBB;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.h6, h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  color: #3D3322;
+  font-size: 14px;
+  letter-spacing: 0;
+  font-family: 'OpenSans-Bold';
+}
+
+#features img {
+  height: 92px;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+dl, ol, ul {
+  color: #404040;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+#source {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: -1%;
+  bottom: -16%;
+  border-radius: 50%;
+}
+
+s {
+  position: absolute;
+  width: 47%;
+  height: 50%;
+  right: -17%;
+  top: -36%;
+  border-radius: 50%;
+}
+
+#execute {
+  position: absolute;
+  width: 54%;
+  height: 47%;
+  left: -65%;
+  top: -37%;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  #source_info {
+    display: none;
+  }
+}
+
+#source_info {
+  /*transform: scale(0);*/
+  transition: .5s ease;
+}
+
+#source_page:hover > #source_info {
+  transform: scale(1);
+}
+
+#enale_page:hover > #enable_info {
+  transform: scale(1);
+}
+
+@media (max-width: 991px) {
+  #enable_info {
+    display: none;
+  }
+}
+
+#enable_info {
+  /*transform: scale(0);*/
+  transition: .5s ease;
+}
+
+#execute_page:hover > #execute_info {
+  transform: scale(1);
+  transition: .5s ease;
+}
+
+@media (max-width: 991px) {
+  #execute_info {
+    display: none;
+  }
+}
+
+#execute_info {
+  /*transform: scale(0);*/
+}
+
+@media (max-width: 991px) {
+  #top_menu {
+    display: none;
+    padding: 15px 0;
+    color: #fff;
+    margin-top: 5%;
+    background: #4498B6;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #top_menu_bar {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #footer {
+    margin-bottom: 6%;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  #esra_info {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  #top_menu h5 {
+    float: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #top_menu h5 {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 991px) {
+  #service_info p {
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  #service_info p {
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #logo {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #services_info2 h5 {
+    text-align: left;
+  }
+}
+
+@media (max-width: 991px) {
+  #services_info2 h5 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer {
+    margin: 0;
+  }
+}
+
+.effect:hover {
+  transform: scale(1.06);
+  border-right: 1px solid rgba(0,0,0,0.49);
+  border-left: 1px solid #0000007d;
+  border-radius: 20px;
+}
+
+.effect {
+  transition: 0.5s ease;
+}
+
+.page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+}
+
+.close_service:hover {
+  color: #ccc;
+  transform: rotate(360deg);
+  background: 0;
+}
+
+.close_service {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  padding: 7px;
+  float: right;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  width: 40px;
+  text-align: center;
+  color: white;
+  transition: .2s ease;
+  cursor: pointer;
+}
+
+#service_menu h5 {
+  font-family: 'OpenSans-Bold';
+}
+
+@media (min-width: 991px) {
+  #esta_logo {
+    text-align: right;
+  }
+}
+
+#top_menu h5.active {
+  color: #000;
+}
+
+@media (min-width: 991px) {
+  #aboutus_header {
+    /*padding: 0;*/
+  }
+}
+
+@media (max-width: 992px) {
+  #aboutus_header {
+    padding: 0 0 0 3%;
+  }
+}
+
+@media (min-width: 991px) {
+  #aboutus_header-1 {
+    text-align: right;
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  #aboutus_header-1 {
+    text-align: left;
+    padding: 0 0 0 3%;
+  }
+}
+
+@media (max-width: 992px) {
+  #model_head p {
+    /*display: none;*/
+    text-align: justify;
+  }
+}
+
+@media (max-width: 992px) {
+  #partner_logos img {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 991px) {
+  #partner_logos img {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #home_info {
+    padding: 205px 38px 96px 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #home_info {
+    padding: 208px 15px 96px 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #home_info {
+    padding: 35% 15px 35% 25px;
+  }
+}
+
+@media (min-width: 991px) {
+  #model_info-1 {
+    padding: 0;
+  }
+}
+
+@media (min-width: 991px) {
+  #model_info {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #home_service {
+    margin-bottom: 5%;
+    padding-bottom: 20%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 580px) {
+  #home_service {
+    margin-bottom: 0;
+    padding-bottom: 10%;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #home_service {
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 991px) {
+  #logo img {
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  #logo img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_group_data {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_group_data {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_para {
+    margin: 0 12%;
+  }
+}
+
+@media (min-width: 992px) {
+  #group_info {
+    padding-left: 7%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_group {
+    margin: 0;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_group {
+    margin: 0;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_about {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_about {
+    margin: 0;
+  }
+}
+
+@media (min-width: 360px) {
+  .para_data {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_about-_data {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_about-_data {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (min-width: 360px) {
+  #esra_value {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_value {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_industry {
+    margin-top: 6%;
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_industry {
+    margin-top: 6%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #model_img img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_partner_img {
+    margin: 0;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_partner_img {
+    margin: 0;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  #partner_logos img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  #partner_logos img {
+    width: 61%;
+  }
+}
+
+#dulsco {
+  width: 50%;
+}
+
+#header {
+  margin: 20px 0;
+}
+
+@media (min-width: 1440px) {
+  #header {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_group {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_para {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fix_width {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #features {
+    margin: 0 4% 0 4%;
+  }
+}
+
+@media (min-width: 992px) {
+  #features {
+    margin: 0 4% 0 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  #home_model_img {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #home_model_img {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #home_model_img {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #footer {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #features {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_about {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_value {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_promice {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_promice {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  #esra_promice img {
+    max-width: 1440px;
+    width: 95%;
+    height: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_promice img {
+    max-width: 1440px;
+    width: 95%;
+    height: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_promice {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_industry {
+    margin: auto;
+    max-width: 1440px;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esra_service {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #esra_service {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_service {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #service_spectrum {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #service_spectrum {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #service_spectrum {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #service_data {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #service_data {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #service_data {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #model_data {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #model_data {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #model_data {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #model_para {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #model_para {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #model_para {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_partner_img {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #contact_page {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact_page {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #contact_page {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .esra_desc {
+    padding-left: 3%;
+  }
+}
+
+@media (min-width: 992px) {
+  .esra_value_desc {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esra_about-_data {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
+
